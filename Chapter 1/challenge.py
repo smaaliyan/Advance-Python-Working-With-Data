@@ -40,8 +40,15 @@ def GetFelt(f):
 most_felt_quake = max(data["features"], key=GetFelt)
 print(f"Most Felt Place: {most_felt_quake["properties"]["place"]} and Report number is: {most_felt_quake['properties']['felt']}")
 
+# Top 10 most significant events, with the significance value of each
 
+def GetSigEvent(s):
+    d = s["properties"]["sig"]
+    if d is not None:
+        return d
+    return 0
 
-
-
-
+sig_event = sorted(data["features"], key=GetSigEvent, reverse=True)
+print("Top 10 significant events were")
+for i in range(10):
+    print(f"Events: {sig_event[i]["properties"]["title"]} , Significance: {sig_event[i]["properties"]["sig"]}")
