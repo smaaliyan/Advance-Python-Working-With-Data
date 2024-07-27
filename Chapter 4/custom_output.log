@@ -1,0 +1,3 @@
+07/28/2024 12:43:15 AM: INFO: <module> Line:19 User:smaaliyan0@gmail.com This is an info-level log message
+07/28/2024 12:43:15 AM: WARNING: <module> Line:20 User:smaaliyan0@gmail.com This is a warning-level message
+07/28/2024 12:43:15 AM: DEBUG: anotherFunction Line:7 User:smaaliyan0@gmail.com This is a debug-level log message
