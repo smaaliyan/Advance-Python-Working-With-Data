@@ -1,0 +1,6 @@
+DEBUG:root:This is a Debug level massage
+INFO:root:This is a Info level massage
+WARNING:root:This is a warning level massage
+ERROR:root:This is a error level massage
+CRITICAL:root:This is a critical level massage
+INFO:root:My name is Aaliyan and I am 22 years old
